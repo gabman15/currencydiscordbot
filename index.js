@@ -1,6 +1,7 @@
 // Require the necessary discord.js classes
 const { Collection, MessageEmbed, MessageAttachment, Client, Intents } = require('discord.js');
 const { token } = require('./config.json');
+const axios = require('axios');
 const jsonp = require('jsonp-request');
 // Create a new client instance
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
@@ -28,7 +29,7 @@ client.on("messageCreate", msg => {
 			country:'united-states',
 			start:'1940/1/1',
 			end:'2022/6/13',
-			amount:'100'
+			amount:'1'
 		}).then((res) => { 
 			msg.channel.send(res)
 	 	});
