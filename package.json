@@ -1,0 +1,15 @@
+{
+  "name": "currency-btot",
+  "version": "1.0.0",
+  "description": "this is a currency btottt librahry e pckackeckages",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "natrium/lolcat/meganerd and linkman8912 and lord_gabem",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "discord.js": "^13.7.0",
+    "jsonp-request": "^0.0.5"
+  }
+}
